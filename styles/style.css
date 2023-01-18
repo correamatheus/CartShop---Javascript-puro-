@@ -30,15 +30,15 @@
 }
 
 .modal .content {
-    background-color: #d3d3d3;
+    background-color: #fff;
     margin: 15% auto;
     padding: 20px;
     border-radius: 5px;
-    width: 70%;
+    width: 60%;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .card {
@@ -52,8 +52,67 @@
     max-width: 270px;
     min-width: 100%;
     object-fit: contain;   
+    border-radius: 10px;
 }
 
 .btn-card {
     width: 100%;
+}
+
+.cart {
+    gap: 2rem
+}
+
+.cart-img {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.icon-trash {
+    cursor: pointer;
+}
+
+.cart-content {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.modal .cart-card {
+    /* border: none; */
+    border-bottom: 1px solid #dadada;
+    border-radius: 10px;
+}
+
+.dashboard-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dashboard-card .card {
+    border: none
+}
+
+.cart-products {
+    gap: 2rem;
+}
+
+.content-cart-list {
+    margin-bottom: 2rem;
+}
+
+.table {
+    border: 2px solid #f4f4f4;
+    padding: 5px;
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border: none;    
+}
+
+.table>:not(caption)>*>* {
+    
+    border-bottom-width: 0px !important; 
+
 }
