@@ -116,3 +116,9 @@
     border-bottom-width: 0px !important; 
 
 }
+
+@media screen and (max-width: 485px) {
+    .dashboard-card {
+        justify-content: center;
+    }
+}
